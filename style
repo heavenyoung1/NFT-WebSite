@@ -1,0 +1,95 @@
+html, body {
+    padding:0; 
+    margin:0;
+  }
+@font-face {
+    font-family: 'Montseratt-Bold';
+    src: url("C:\Users\Lenovo\Desktop\NFT\style\fonts\Montserrat\Montserrat-Bold.ttf");
+  }
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 65px;
+}
+.container-header {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.header-menu {
+    padding: 45px 30px 30px 0;
+    list-style-type: none;
+    display: block;
+
+    font-weight: 700;
+    line-height: 25px;  
+}
+.header-button {
+    position: relative;
+    top:35px;
+    width: 80px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #F7859C;
+    color: white;
+    border-color: #F7859C;
+
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 8px 20px 12px 20px;
+}
+h2 {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Montserrat-Bold';
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+h3 {
+    width: 429px;
+    height: 76px;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-top: 45px;
+    margin-left: 35%;
+    text-align: center;
+}
+.button {
+    width: 135px;
+    height: 45px;
+
+    font-family: Open Sans;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25px;
+   letter-spacing: 0em;
+   text-align: center;
+   background-color: #F7859C;
+   border-radius: 12px;
+   border-color: #F7859C;
+   margin-left: 45%;
+   margin-top: 30px;
+}
+/* Vector */
