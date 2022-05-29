@@ -1,21 +1,33 @@
 html, body {
     padding:0; 
     margin:0;
+    width: 100%
   }
 @font-face {
     font-family: 'Montseratt-Bold';
     src: url("C:\Users\Lenovo\Desktop\NFT\style\fonts\Montserrat\Montserrat-Bold.ttf");
   }
+.head_logo {
+    position: absolute;
+    top: 22px;
+    left: 69px;
+}
+
 .container-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    margin-right: 65px;
+    width: 100%;
 }
+a {
+    text-decoration: none;
+    color: black
+  }
 .container-header {
     font-family: 'Open Sans';
     font-size: 18px;
+    margin-right: 65px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -45,20 +57,24 @@ html, body {
 
     padding: 8px 20px 12px 20px;
 }
+main {
+    width: 100%
+}
 h2 {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
     text-align: center;
+    margin-top: 102px;
 
 }
 h1 {
-    font-family: 'Montserrat-Bold';
+    font-family: 'Open Sans', 'Montserrat'; /*ШРИФТ ПОМЕНЯТЬ*/
     font-size: 97px;
-    font-weight: 700;
+    /*font-weight: 700;*/
     line-height: 87px;
     letter-spacing: 0em;
     text-align: center;
@@ -80,7 +96,7 @@ h3 {
     width: 135px;
     height: 45px;
 
-    font-family: Open Sans;
+   font-family: 'Open Sans';
    font-size: 18px;
    font-weight: 700;
    line-height: 25px;
@@ -92,4 +108,99 @@ h3 {
    margin-left: 45%;
    margin-top: 30px;
 }
-/* Vector */
+.man_right {
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+}
+.man_left {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: -1;
+}
+.collection {
+    margin-top: 405px;
+}
+.meet {
+    font-size: 65px;
+}
+.group_people {
+    position: relative;
+    padding-top: 76px;
+    margin-left: 800px;
+}
+.left-article {
+    margin-left: 20px;
+    position: absolute;
+    top: 1200px;
+    padding-left: 230px;
+}
+.mini-post {
+    display: block;
+    width: 332px;
+}
+.post_name {
+    font-family: 'Open Sans', 'Montserrat'; /*ШРИФТ ПОМЕНЯТЬ*/
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-bottom: 17px;
+    padding-top: 28px
+}
+.description {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #404756;
+}
+.mini-post::after {
+    content: "";
+    display: block;
+    position: center; /*доработать чтобы стал посередине*/
+    width: 374px;
+    border-bottom: 1px solid  #40475699;
+    ;
+    padding-top: 32px;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+.line {
+    width: 100%;
+}
+main {
+    background-color: #FBF1E6;
+
+}
+.content {
+    margin-top: 139px;
+    margin-left: 230px;
+}
+.main-title {
+    width: 55px;
+  
+    height: 26px;
+}
+.h1-title {
+    font-family: 'Open Sans', 'Montserrat'; /*ШРИФТ ПОМЕНЯТЬ*/
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 58px;
+    width: 570px;
+    height: 59px;
+
+}
+.h1-title::after {
+    content: "";
+    display: block;
+    position: center; /*доработать чтобы стал посередине*/
+    width: 100%;
+    border-bottom: 1px solid  #40475699;
+    ;
+    padding-top: 32px;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
